@@ -6,7 +6,7 @@ caption, th, td {text-align:left;font-weight:normal;}
 table, td, th {vertical-align:middle;}
 blockquote:before, blockquote:after, q:before, q:after {content:"";}
 blockquote, q {quotes:"" "";}
-a {text-decoration:  none;}
+a {color: #000}
 a img {border:none;}
 
 /* Page layout */
@@ -37,17 +37,16 @@ div.column {
 div.header {top: 0;padding: 10px 0;}
 div.footer {bottom: 0;}
 
-h1 {text-transform:uppercase;font-weight:bold;font-size:1.8em;}
+h1 {text-transform:uppercase;font-weight:bold;font-size:1.5em;}
+h2 {text-transform:uppercase;font-weight:bold;font-size:1.3em;}
+
 
 /* logo */
 .header h1 {
     color: #fff;
 }
 
-.header a {
-    color: #fff;
-}
+.header a {color: #fff;text-decoration:none;}
+.header a:hover {color: #ddd;}
 
-.header a:hover em {
-    color: #f00;
-}
+
