@@ -95,9 +95,7 @@ addPostList = setFieldA "posts" $
         >>> arr mconcat
         >>> arr pageBody
 
-makeTagList :: String
-            -> [Page String]
-            -> Compiler () (Page String)
+makeTagList :: String -> [Page String] -> Compiler () (Page String)
 makeTagList tag posts =
     constA (mempty, posts)
         >>> addPostList
@@ -108,9 +106,9 @@ makeTagList tag posts =
 
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
-    { feedTitle       = "SimpleBlog RSS feed."
-    , feedDescription = "A simple demo of an RSS feed created with Hakyll."
-    , feedAuthorName  = "Jasper Van der Jeugt"
-    , feedRoot        = "http://example.com"
+    { feedTitle       = "liborw feed"
+    , feedDescription = ""
+    , feedAuthorName  = "Libor Wagner"
+    , feedRoot        = "http://liborw.github.com"
     }
 
