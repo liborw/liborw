@@ -74,3 +74,7 @@ ol.toc { padding: 0;}
 ol.toc li { list-style-type: none; }
 ol.toc li h2 { margin: 0; padding: 0; font-size: 1.2em; line-height: 1.5em;}
 ol.toc p {margin-bottom: 1em; font-size: 0.9em; font-style: color: #333;}
+
+/* post head */
+.head h1 {margin-bottom: 0; padding: 0 0;}
+.head p {margin-top: 0; margin-bottom: 1.0em;0em}
